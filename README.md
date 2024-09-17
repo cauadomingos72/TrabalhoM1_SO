@@ -17,9 +17,6 @@ Este projeto foi implementado em **C** e foi desenvolvido e testado em um ambien
 
 Para compilar o servidor e o cliente, siga os passos abaixo:
 
-### Compilar o servidor e cliente
-Use o seguinte comando para compilar o servidor, que será responsável por criar as threads e responder às solicitações dos clientes:
-
 ```bash
 gcc -g server.c -o server -lpthread
 gcc -g client.c -o client
