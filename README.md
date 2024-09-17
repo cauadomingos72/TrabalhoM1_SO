@@ -22,3 +22,4 @@ Use o seguinte comando para compilar o servidor, que será responsável por cria
 
 ```bash
 gcc -g server.c -o server -lpthread
+gcc -g client.c -o client
